@@ -1,0 +1,79 @@
+@font-face {
+    font-family: sans;
+    src: url(../fonts/IRAN\ Sans\ Bold\ \(mmrostami.blog.ir\).ttf);
+    src: url(../fonts/IRAN\ Sans\ Regular\ \(mmrostami.blog.ir\).ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans;
+}
+.font-medium{
+    font-size: .9rem;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.crs{
+    border-radius: 10px;
+}
+.up-to-top{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 100;
+}
+.price-f{
+    color: #32A47B;
+}
+.price-bg{ 
+    background-color: #ECF1FB;
+}
+.price-br{
+    border-top-right-radius: 10px;
+}
+.brd{
+    border-bottom: solid 1.5px;
+    border-image: linear-gradient(90deg, rgb(0, 0, 0) 50%, #074EE8 50%) 1;
+}
+.card{
+    border-style: none !important;
+    border-radius: 10px !important;
+}
+.mrgn{
+    margin-top: 150px;
+}
+.crd-mg{
+    position: relative;
+    right: calc(50% - 60px);
+}
+.fs-7{
+    font-size: .9rem;
+}
+.fs-8{
+    font-size: .85rem;
+}
+.fs-9{
+    font-size: .8rem;
+}
+.lnk{
+    text-decoration: none;
+}
+.form-select:focus{
+    color: black !important;
+}
+.form-control::placeholder{
+    color: #ADADAD !important;
+}
+.ftr{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.engfnt{
+    font-family: Arial, Helvetica, sans-serif;
+}
