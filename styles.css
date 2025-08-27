@@ -1,7 +1,7 @@
 @font-face {
     font-family: sans;
-    src: url(../fonts/IRAN\ Sans\ Bold\ \(mmrostami.blog.ir\).ttf);
-    src: url(../fonts/IRAN\ Sans\ Regular\ \(mmrostami.blog.ir\).ttf);
+    src: url(./IRAN\ Sans\ Bold\ \(mmrostami.blog.ir\).ttf);
+    src: url(./IRAN\ Sans\ Regular\ \(mmrostami.blog.ir\).ttf);
 }
 *{
     padding: 0;
@@ -76,4 +76,5 @@
 }
 .engfnt{
     font-family: Arial, Helvetica, sans-serif;
+
 }
