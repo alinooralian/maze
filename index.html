@@ -89,92 +89,617 @@
 
     <section class="mt-5">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-8 gx-3">
-            <div
-              id="carouselExampleAutoplaying"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-indicators">
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="0"
-                  class="active"
-                  aria-current="true"
-                  aria-label="Slide 1"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
-                ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
-              </div>
-              <div class="carousel-inner crs">
-                <div class="carousel-item active" data-bs-interval="3000">
-                  <img
-                    src="./Asgk67mtZDskNRrHhcilhmxZJtzlGek6h6k9J1Xo.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <img
-                    src="./fPuu7g9pQzVYQTyoVMrLTBi5dI7QIoqbQaxaHY9W.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-                <div class="carousel-item" data-bs-interval="3000">
-                  <img
-                    src="./gUQ1XXXWIDqWlXkyurJu3fX3J3HCfy4vm4iqWzRB.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                  />
-                </div>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-4 d-flex justify-content-start">
+            <h4 class="brd fw-bold fs-5">محصولات</h4>
           </div>
-          <div class="col-lg-4 mt-3 mt-lg-0">
-            <div class="row d-lg-none">
-              <div class="col-6">
-                <img
-                  class="img-fluid crs"
-                  src="./Asgk67mtZDskNRrHhcilhmxZJtzlGek6h6k9J1Xo.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="col-6">
-                <img
-                  class="img-fluid crs"
-                  src="./fPuu7g9pQzVYQTyoVMrLTBi5dI7QIoqbQaxaHY9W.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-            <div class="d-none d-lg-block">
-              <img
-                class="img-fluid mb-3 crs"
-                src="./Asgk67mtZDskNRrHhcilhmxZJtzlGek6h6k9J1Xo.jpg"
-                alt=""
-              />
-              <img
-                class="img-fluid crs"
-                src="./fPuu7g9pQzVYQTyoVMrLTBi5dI7QIoqbQaxaHY9W.jpg"
-                alt=""
-              />
-            </div>
+          <div class="col-4 d-flex justify-content-center">
+            <span class="bg-body text-primary px-4 py-2 rounded-4">
+              پکیج
+            </span>
+          </div>
+          <div class="col-4 d-flex justify-content-end">
+            <button class="btn btn-outline-primary d-flex align-items-center fs-7">
+              مشاهده همه
+              <i class="bi bi-chevron-left ms-1 d-flex align-self-bottom"></i>
+            </button>
           </div>
         </div>
-      </div>
+
+        <div class="mb-3"></div>
+        <!-- Desktop carousel -->
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide d-none d-lg-block"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div class="row">
+              <div class="col-6 col-lg-3">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd1.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دوازدهم تجربی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd2.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دوازدهم ریاضی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3 d-lg-none"></div>
+
+            <div class="col-6 col-lg-3">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd3.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دوازدهم انسانی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd4.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">یازدهم انسانی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+               </div>
+            </div>
+
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="5000">
+              <div class="row">
+              <div class="col-6 col-lg-3">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd5.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">یازدهم تجربی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd6.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">یادزهم ریاضی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="mb-3 d-lg-none"></div>
+
+            <div class="col-6 col-lg-3">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd7.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دهم تجربی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-lg-3">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd8.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دهم ریاضی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+
+              </div>
+            </div>
+
+        </div>
+        </div>
+        <!-- Mobile carousel -->
+         <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide d-lg-none"
+          data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd1.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دوازدهم تجربی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container-fluid">
+                    <div class="row justify-content-end">
+                      <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                        <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                        <br class="d-md-none">
+                        <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd2.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دوازدهم ریاضی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd3.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دوازدهم انسانی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd4.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">یازدهم انسانی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd5.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">یازدهم تجربی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd6.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">یادزهم ریاضی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd7.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دهم تجربی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="card">
+                  <div class="container">
+                    <img
+                      class="card-img-top mb-2 mt-3"
+                      src="./prd8.jpg"
+                      alt=""
+                    />
+                    <span
+                      class="price-f price-bg position-absolute translate-middle badge rounded-pill p-2 fs-6" style="top: 20px; right:25px;"
+                    >
+                      15%
+                    </span>
+                    <div class="row align-items-center my-3">
+                      <div class="col-8">
+                        <h4 class="fs-5 fw-bold">اشتراک دوازدهم</h4>
+                        <h5 class="text-muted fs-6">دهم ریاضی</h5>
+                      </div>
+                      <div class="col-4 d-flex justify-content-end">
+                        <i class="bi bi-plus-lg btn btn-success text-light"></i>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid">
+                  <div class="row justify-content-end">
+                    <div class="col-11 price-bg price-br py-1 py-md-3 text-center">
+                      <p class="d-inline me-1 fw-bold">9،999،000 تومان</p>
+                      <br class="d-md-none">
+                      <p class="d-inline text-decoration-line-through text-muted">24،000،000 تومان</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
     </section>
 
     <!-- Section 2 -->
@@ -989,6 +1514,7 @@
 
   </body>
 </html>
+
 
 
 
